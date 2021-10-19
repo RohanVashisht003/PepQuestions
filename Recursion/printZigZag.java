@@ -8,12 +8,11 @@ public class printZigZag {
 		if(n==0) {
 			return;
 		}
-		
-		System.out.print(n+" ");
+		System.out.print("pre"+n+" ");
 		pzz(n-1);
-		System.out.print(n+" ");
+		System.out.print("in"+n+" ");
 		pzz(n-1);
-		System.out.print(n+" ");
+		System.out.print("post"+n+" ");
 	}
 
 	public static void main(String[] args) {

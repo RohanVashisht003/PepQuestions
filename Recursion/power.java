@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class power {
 
 	public static int powerLogn(int x, int n) {
-		if(n==0) {
+		if (n == 0) {
 			return 1;
 		}
 		int pnb2 = powerLogn(x, n / 2);

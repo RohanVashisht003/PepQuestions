@@ -17,7 +17,7 @@ public class kpc {
 		String ros = str.substring(1);
 		ArrayList<String> rstr = getKPC(ros);
 		ArrayList<String> mstr = new ArrayList<String>();
-		int index = ch-'0';
+		int index = ch - '0';
 		String StringfromCh = al.get(index);
 		for (int i = 0; i < StringfromCh.length(); i++) {
 			char chString = StringfromCh.charAt(i);

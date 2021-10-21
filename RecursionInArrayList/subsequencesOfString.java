@@ -11,7 +11,7 @@ public class subsequencesOfString {
 		String str = scn.next();
 		ArrayList<String> ans = gss(str);
 		System.out.println(ans);
-	}
+	}	
 
 	public static ArrayList<String> gss(String str) {
 		if (str.length() == 0) {
